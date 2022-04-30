@@ -157,3 +157,62 @@ h3 {
   flex-direction: row;
   gap: 1.6em;
 }
+
+.seccion{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5rem 0rem;
+  background-color: black;
+}
+
+.nosotros{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nosotros h2{
+  color: #db8658
+}
+
+.nosotros p {
+  text-align: center;
+	margin: 2rem;
+	width: 80%;
+	font-weight: 100;
+  color: #db8658;
+}
+
+.cartas{
+  display: flex;
+	align-items: center;
+	gap: 4rem;
+	margin: 3rem;
+	max-width: 1300px;
+}
+
+.cartas p{
+  color: #db8658;
+}
+
+.carta1{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icon {
+	font-size: 10rem;
+	margin: 1.5rem;
+	display: block;
+color: #db8658;
+}
+
+.icon:hover{
+  background-color: rgb(253, 253, 253);
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
